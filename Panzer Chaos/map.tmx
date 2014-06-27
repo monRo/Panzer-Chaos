@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set" tilewidth="32" tileheight="32">
+  <image source="set.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="7" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztziESADAIxMArdPj/kzmJqEc0Yic2JamAh2Mxuv2Tdke3fwAAwJ8aJNIQxQ==
+  </data>
+ </layer>
+ <layer name="wall" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzlVlsKwDAIc4/e/8rrj1AKYRGndTQgfmmTFNQmIq1YMDh6nEP2YO6l2cLn6nEP2YO5l+ZV/iAoH+atL/1545PxFqPZ8l9eMJoz+ezmD5ohSH+0P2iGIP3V/GGQ6U80nwj8iU/GvrLwydghFj5ef5g6y/3j9YepQ/dPpXgAra4DSQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="36" height="20">
+  <object name="player" x="591" y="557"/>
+  <object name="enemy2" x="254" y="317"/>
+  <object name="enemy4" x="609" y="129"/>
+  <object name="enemy5" x="892" y="478"/>
+  <object name="enemy6" x="1056" y="258"/>
+  <object name="enemy1" x="92" y="64"/>
+  <object name="enemy3" x="96" y="542"/>
+ </objectgroup>
+ <layer name="Meta" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYB9kmBAgVx8pZtHbPdQMs5HkHmLdTE33EKufkjRFCiDVPbQGtHYPqWlw1D2j7qHEPaSaO9jdQ48yaSS7hxh9pMTzqHsGLwYAWlUJhQ==
+  </data>
+ </layer>
+</map>
